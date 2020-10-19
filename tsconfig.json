@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es6",
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true,
+        "outFile": "web/build/bundle.js"
+    },
+    "include": ["web/**/*"],
+    "exclude": ["web/build/**/*"],
+}
